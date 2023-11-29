@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/ibBackArrow"
+            android:layout_width="8dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:contentDescription="Flecha hacia atras"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/backarrow" />
+
+        <TextView
+            android:id="@+id/tvTitleMain"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/tvTitleMain"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+        <ImageButton
+            android:id="@+id/ibUser"
+            android:layout_width="8dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:contentDescription="Imagen de perfil"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/user" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="124dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibProject"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:contentDescription="Imagen del proyecto"
+                app:srcCompat="@drawable/imggallery" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTitleProject"
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <ImageButton
+                        android:id="@+id/ibPencil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="59dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Boton de edición de proyecto"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/lapiz" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvStudio"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/tvEditeTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+    android:id="@+id/imageButton13"
+    android:layout_width="199dp"
+    android:layout_height="87dp"
+    android:layout_gravity="center"
+    android:contentDescription="imgMore"
+    android:scaleType="fitCenter"
+    app:srcCompat="@drawable/add" />
+
+</LinearLayout>
