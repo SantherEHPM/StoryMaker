@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
+    android:background="@color/TurquesaBlack"
     tools:context=".StartingScreen">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:text="@string/tvBienvenidoSC"
+        android:textColor="@color/LigthGray"
         android:textAlignment="center"
         android:textSize="25dp" />
 
@@ -33,6 +35,7 @@
         android:layout_marginBottom="20dp"
         android:padding="10dp"
         android:text="@string/btnLogin"
+        android:backgroundTint="@color/BlueLigthBtn"
         android:textSize="20dp" />
 
     <Button
@@ -42,5 +45,7 @@
         android:layout_gravity="center"
         android:padding="10dp"
         android:text="@string/btnRegister"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:backgroundTint="@color/TurquesaBlack"
+        android:textColor="@color/BlueLigthBtn" />
 </LinearLayout>

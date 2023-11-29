@@ -4,6 +4,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
+android:background="@color/AppGray"
 tools:context=".MainActivity">
 
     <LinearLayout
@@ -29,6 +30,7 @@ tools:context=".MainActivity">
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:text="@string/tvTitleMain"
+            android:textColor="@color/LigthGray"
             android:textAlignment="center"
             android:textSize="25dp" />
         <ImageButton
@@ -45,6 +47,8 @@ tools:context=".MainActivity">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_margin="10dp"
+        android:backgroundTint="@color/AppGray"
+        android:outlineAmbientShadowColor="@color/black"
         android:layout_height="124dp">
 
         <LinearLayout
