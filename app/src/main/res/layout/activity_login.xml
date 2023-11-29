@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".Login">
+
+    <TableRow
+        android:layout_width="409dp"
+        android:layout_height="188dp">
+
+        <ImageView
+            android:id="@+id/ivLogoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tvLoginTitle"
+            android:textAlignment="center"
+
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tvEmailLogin"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/etEmailLogin"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tvPasswordLogin"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/etPasswordLogin"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnLoginL"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="@string/btnLoginL"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnRegisterL"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="@string/btnRegister"
+        android:textSize="20dp" />
+</LinearLayout>

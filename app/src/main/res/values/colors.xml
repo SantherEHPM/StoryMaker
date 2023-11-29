@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="TurquesaBlack">#025159</color>
+    <color name="AppGray">#576869</color>
+    <color name="BlueLigthBtn">#5B99B0</color>
+    <color name="LigthGray">#F4F7F9</color>
 </resources>
