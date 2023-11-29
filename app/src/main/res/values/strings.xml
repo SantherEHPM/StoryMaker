@@ -5,6 +5,34 @@
     <string name="btnLogin">Ingresar</string>
     <string name="btnRegister">Registrarse</string>
 
+
+
+    <!--Strings Register-->
+    <string name="ivRegister"></string>
+    <string name="tvRegister">Registro</string>
+    <string name="tvNameUser">Nombre de usuario</string>
+    <string name="etNameUser"></string>
+    <string name="tvemailRegister">Correo electrónico</string>
+    <string name="etemailRegister"></string>
+    <string name="tvpssEmailRegister">Contraseña</string>
+    <string name="etpssEmailRegister"></string>
+    <string name="btnLoginRegister">Iniciar sesión</string>
+    <!--Strings Profile-->
+    <string name="ibArrow"></string>
+    <string name="tvProfile">Perfil</string>
+    <string name="ivProfile"></string>
+    <string name="ibProfile"></string>
+    <string name="tvuserProfile">Usuario</string>
+    <string name="etu¿serProfile">SofiaMendez214</string>
+    <string name="btneditUserProfile">Editar</string>
+    <string name="tvemailProfile">Correo electrónico</string>
+    <string name="etemailProfile">sofia14@gmail.com</string>
+    <string name="btneditEmailprofile">Editar</string>
+    <string name="tvpssProfile">Contraseña</string>
+    <string name="etpssProfile">********</string>
+    <string name="btneditPssProfile">Editar</string>
+    <string name="btnRegister">Registrarse</string>
+
     <!--LOGIN-->
     <string name="tvLoginTitle">Registrarse</string>
     <string name="tvEmailLogin">Correo electrónico</string>
