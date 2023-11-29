@@ -1,3 +1,23 @@
 <resources>
+    <!--STARTING SCREEN (Pantalla principal)-->
     <string name="app_name">StoryMaker</string>
+    <string name="tvBienvenidoSC">Bienvenido</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="btnRegister">Registrarse</string>
+
+    <!--LOGIN-->
+    <string name="tvLoginTitle">Registrarse</string>
+    <string name="tvEmailLogin">Correo electrónico</string>
+    <string name="etEmailLogin">ejm:.. Sofia1@gmail.com</string>
+    <string name="tvPasswordLogin">Contraseña</string>
+    <string name="etPasswordLogin">password</string>
+    <string name="btnLoginL">Iniciar sesión</string>
+
+    <!--MAIN PROYECT-->
+    <string name="tvTitleMain">Proyectos</string>
+
+    <!--SETTINGS-->
+    <string name="tvTema">Cambiar tema</string>
+    <string name="tvHelp">Ayuda</string>
+    <string name="tvExit">Salir</string>
 </resources>
