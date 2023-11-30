@@ -20,19 +20,22 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="Imagen devolver"
                 app:srcCompat="@drawable/icon_arrow" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/tvTitleCreateProject"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Proyecto #1" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/ibConfig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ajuste" />
+                android:contentDescription="Configuración"
+                android:src="@android:drawable/btn_star" />
+
         </TableRow>
 
     </LinearLayout>
@@ -47,22 +50,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tvTitleTeam"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Equipo:" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/etNameTeam"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Name" />
+                android:text="MAPPA" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/ibAddTeam"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@android:drawable/btn_star" />
@@ -80,69 +83,25 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ivTeam"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@tools:sample/avatars" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvTitleEscena"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Escena #1" />
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/ib"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="101dp"
+                android:contentDescription="Menu proyecto"
                 app:srcCompat="@drawable/menus" />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/menus" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/menus" />
-        </TableRow>
     </LinearLayout>
 
 </LinearLayout>

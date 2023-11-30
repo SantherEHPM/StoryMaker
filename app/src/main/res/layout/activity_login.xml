@@ -44,7 +44,7 @@
         android:layout_marginBottom="30dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/etEmailLogin"
+        android:hint="@string/etEmailLogin"
         android:textSize="20dp" />
 
     <TextView
@@ -62,7 +62,7 @@
         android:layout_marginBottom="40dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/etPasswordLogin"
+        android:hint="@string/etPasswordLogin"
         android:textSize="20dp" />
 
     <Button
