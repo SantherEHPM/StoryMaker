@@ -1,3 +1,48 @@
 <resources>
+    <!--STARTING SCREEN (Pantalla principal)-->
     <string name="app_name">StoryMaker</string>
+    <string name="tvBienvenidoSC">Bienvenido</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="btnRegister1">Registrarse</string>
+
+    <!--Strings Register-->
+    <string name="ivRegister"></string>
+    <string name="tvRegister">Registro</string>
+    <string name="tvNameUser">Nombre de usuario</string>
+    <string name="etNameUser"></string>
+    <string name="tvEmailRegister">Correo electrónico</string>
+    <string name="etEmailRegister"></string>
+    <string name="tvPssEmailRegister">Contraseña</string>
+    <string name="etPssEmailRegister"></string>
+    <string name="btnLoginRegister">Iniciar sesión</string>
+
+    <!--Strings Profile-->
+    <string name="ibArrow"></string>
+    <string name="tvProfile">Perfil</string>
+    <string name="ivProfile"></string>
+    <string name="ibProfile"></string>
+    <string name="tvUserProfile">Usuario</string>
+    <string name="etUserProfile">SofiaMendez214</string>
+    <string name="tvEmailProfile">Correo electrónico</string>
+    <string name="etEmailProfile">sofia14@gmail.com</string>
+    <string name="tvPssProfile">Contraseña</string>
+    <string name="etPssProfile">********</string>
+    <string name="btnRegister">Registrarse</string>
+    <string name="btnSave">Guardar cambios</string>
+
+    <!--LOGIN-->
+    <string name="tvLoginTitle">Ingreso</string>
+    <string name="tvEmailLogin">Correo electrónico</string>
+    <string name="etEmailLogin">eje@gmail.com</string>
+    <string name="tvPasswordLogin">Contraseña</string>
+    <string name="etPasswordLogin">Contraseña</string>
+    <string name="btnLoginL">Iniciar sesión</string>
+
+    <!--MAIN PROYECT-->
+    <string name="tvTitleMain">Proyectos</string>
+
+    <!--SETTINGS-->
+    <string name="tvTema">Cambiar tema</string>
+    <string name="tvHelp">Ayuda</string>
+    <string name="tvExit">Salir</string>
 </resources>

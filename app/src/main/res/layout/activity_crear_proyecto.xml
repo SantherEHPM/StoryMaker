@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreacionProyecto.CrearProyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Imagen devolver"
+                app:srcCompat="@drawable/icon_arrow" />
+
+            <TextView
+                android:id="@+id/tvTitleCreateProject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proyecto #1" />
+
+            <ImageButton
+                android:id="@+id/ibConfig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Configuración"
+                android:src="@android:drawable/btn_star" />
+
+        </TableRow>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTitleTeam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Equipo:" />
+
+            <EditText
+                android:id="@+id/etNameTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="MAPPA" />
+
+            <ImageButton
+                android:id="@+id/ibAddTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/btn_star" />
+        </TableRow>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivTeam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tvTitleEscena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escena #1" />
+
+            <ImageButton
+                android:id="@+id/ib"
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:contentDescription="Menu proyecto"
+                app:srcCompat="@drawable/menus" />
+        </TableRow>
+
+    </LinearLayout>
+
+</LinearLayout>

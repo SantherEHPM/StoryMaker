@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/ivRegister"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:layout_weight="1"
+            android:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvRegister"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvNameUser" />
+
+        <EditText
+            android:id="@+id/etNameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/tvemailRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo" />
+
+        <EditText
+            android:id="@+id/etemailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/tvpssEmailRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña" />
+
+        <EditText
+            android:id="@+id/etpssEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="numberPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegister" />
+
+        <Button
+            android:id="@+id/bntLoginRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLoginRegister" />
+
+    </LinearLayout>
+
+</LinearLayout>

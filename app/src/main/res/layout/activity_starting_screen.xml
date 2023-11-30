@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/TurquesaBlack"
+    tools:context=".StartingScreen">
+
+    <TextView
+        android:id="@+id/tvBienvenidoSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/tvBienvenidoSC"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/LigthGray"
+        android:fontFamily="@font/sans_font"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/ivLogoSC"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="@string/btnLogin"
+        android:backgroundTint="@color/BlueLigthBtn"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/btnRegister"
+        android:textSize="20dp"
+        android:backgroundTint="@color/TurquesaBlack"
+        android:textColor="@color/BlueLigthBtn" />
+</LinearLayout>
