@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeamMembers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibCloseTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Image Team"
+            android:src="@android:drawable/btn_dialog" />
+
+        <TextView
+            android:id="@+id/tvMembersTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Sing out Member Team"
+            android:text="Integrantes del equipo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/etNameMembersTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/etNameMembersTeam" />
+
+        <EditText
+            android:id="@+id/etRolMembersTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:text="@string/etRolMembersTeam"
+            android:inputType="text" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="69dp"
+            android:layout_height="70dp"
+            android:src="@tools:sample/avatars" />
+    </LinearLayout>
+</LinearLayout>

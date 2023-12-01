@@ -45,4 +45,33 @@
     <string name="tvTema">Cambiar tema</string>
     <string name="tvHelp">Ayuda</string>
     <string name="tvExit">Salir</string>
+
+    <!--MEMBERS TEAM-->
+    <string name="tvMembersTeam">Integrantes del equipo</string>
+    <string name="etNameMembersTeam">Waleska Moyano</string>
+    <string name="etRolMembersTeam">3D Artist</string>
+
+    <!--DATE CREATE PROJECT-->
+    <string name="tvTitleProjectStart">Proyecto</string>
+    <string name="tvNameProject">Nombre del proyecto: </string>
+    <string name="etNameProject"></string>
+    <string name="tvProduct">Productora</string>
+    <string name="etProduct"></string>
+    <string name="tvStartDate">Fecha de inicio</string>
+    <string name="etStartDate">DD/MM/YYYY</string>
+    <string name="tvEndDate">Fecha de finalización</string>
+    <string name="etEndDate">DD/MM/YYYY</string>
+    <string name="btnConfirmarProject">Confirmar</string>
+
+    <!--CONFIGURACIÓN DE ARCHIVO-->
+    <string name="tvTitleConfig">Configuración de archivo</string>
+    <string name="tvNameFile">Nombre del archivo</string>
+    <string name="etNameFile"></string>
+    <string name="tvFormatoFile">Formato</string>
+    <string name="tvNumScenes">N. de escenas</string>
+    <string name="tvOrientation">Orientación</string>
+    <string name="btnSaveFile">Confirmar</string>
+
+
+
 </resources>

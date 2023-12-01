@@ -9,8 +9,8 @@
     tools:context=".Login">
 
     <TableRow
-        android:layout_width="409dp"
-        android:layout_height="188dp">
+        android:layout_width="300dp"
+        android:layout_height="150dp">
 
         <ImageView
             android:id="@+id/ivLogoLogin"

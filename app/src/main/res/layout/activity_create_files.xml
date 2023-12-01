@@ -1,9 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".CreateFiles">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibCloseProjectCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Image"
+            android:src="@android:drawable/btn_star" />
+
+        <TextView
+            android:id="@+id/tvTitleProjectStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Image btn close"
+            android:text="@string/tvTitleProjectStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNameProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tvNameProject" />
+
+    <EditText
+        android:id="@+id/etNameProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Kri View"
+        android:inputType="text"
+        android:text="@string/etNameProject" />
+
+    <TextView
+        android:id="@+id/tvProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tvProduct" />
+
+    <EditText
+        android:id="@+id/etNameProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="Solano SAS"
+        android:inputType="text"
+        android:text="@string/etProduct" />
+
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tvStartDate" />
+
+    <EditText
+        android:id="@+id/etStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/tvEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tvEndDate" />
+
+    <EditText
+        android:id="@+id/etEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnConfirmarProject"
+        android:layout_width="204dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:text="@string/btnConfirmarProject" />
+</LinearLayout>
